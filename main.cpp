@@ -48,25 +48,26 @@ int main() {
                   	char ch1=getch();
                   	if(ch1==-32)
                   	{			
-						    char ch2=getch();		  
-							if(ch2==80)
-		                  	{
-		                  		downBlock();
-		                  		downBlock();
-						    }
-							else if(ch2== 77)
-							{
-								rightBlock();
-								
-							}
-		                  	else if(ch2==75)
-		                  	{
-		                  		leftBlock();
-							  }
-						    else if(ch2==72)
-							{
-							 rotateBlock();	
-						     }
+					    char ch2=getch();		  
+	                    
+						if(ch2==80)
+	                  	{
+	                  		downBlock();
+	                  		downBlock();
+					    }
+						else if(ch2== 77)
+						{
+							rightBlock();
+							
+						}
+	                  	else if(ch2==75)
+	                  	{
+	                  		leftBlock();
+						  }
+					    else if(ch2==72)
+						{
+						 rotateBlock();	
+					     }
 			     	}
 			     	else if(ch1=='s') //stope game
 			     	{
